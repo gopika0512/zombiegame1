@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyCSDg5aFW8HZi08dXGb_e3sYVpkv9VC7dM",
+  authDomain: "zombiegame-74ecf.firebaseapp.com",
+  databaseURL: "https://zombiegame-74ecf-default-rtdb.firebaseio.com",
+  projectId: "zombiegame-74ecf",
+  storageBucket: "zombiegame-74ecf.appspot.com",
+  messagingSenderId: "385841445700",
+  appId: "1:385841445700:web:79c519a0469b80e8adf511"
+};
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="game.js"></script>
+    <script src="player.js"></script>
+    <script src="form.js"></script>
+    
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  
+
+</body></html>
